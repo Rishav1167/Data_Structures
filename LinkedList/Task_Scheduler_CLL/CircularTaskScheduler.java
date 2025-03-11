@@ -1,4 +1,4 @@
-package LinkedList.Task_Scheduler;
+package LinkedList.Task_Scheduler_CLL;
 
 public class CircularTaskScheduler {
     private Task head;

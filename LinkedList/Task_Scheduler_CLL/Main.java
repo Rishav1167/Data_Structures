@@ -1,4 +1,4 @@
-package LinkedList.Task_Scheduler;
+package LinkedList.Task_Scheduler_CLL;
 
 public class Main {
     public static void main(String[] args) {
