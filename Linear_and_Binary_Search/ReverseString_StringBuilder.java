@@ -41,7 +41,7 @@ public class ReverseString_StringBuilder {
         System.out.print("Enter a string: ");
         String input = sc.nextLine();
 
-        // Call different approaches
+        // Implementing all different approaches
         System.out.println("Reversed using StringBuilder.reverse(): " + reverseUsingStringBuilder(input));
         System.out.println("Reversed using two-pointer swapping: " + reverseUsingSwapping(input));
         System.out.println("Reversed using delete & append: " + reverseUsingDeleteAndAppend(input));
