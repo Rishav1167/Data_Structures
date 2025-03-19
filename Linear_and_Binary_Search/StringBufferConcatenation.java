@@ -1,7 +1,7 @@
 package Linear_and_Binary_Search;
 
 public class StringBufferConcatenation {
-    public static String concatenateStrings(String[] strings) {
+    public static String concatenateStrings(String[] strings) {//used to concatenate string array with StringBuffer
         StringBuffer sb = new StringBuffer();
         for (String s : strings) {
             sb.append(s);
