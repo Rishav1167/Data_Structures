@@ -12,7 +12,7 @@ public class WordCounter {
         String targetWord = "hello";
         int count = 0;
 
-        try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
+        try (BufferedReader br = new BufferedReader(new FileReader(filePath))) { // BufferReader is used for faster speed
             String line;
             while ((line = br.readLine()) != null) {
                 String[] words = line.split("\\s+");
