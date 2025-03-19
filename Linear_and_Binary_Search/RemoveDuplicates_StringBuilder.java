@@ -9,7 +9,7 @@ public class RemoveDuplicates_StringBuilder {
         String str = sc.nextLine();
         sc.close();
 
-        HashSet<Character> seen = new HashSet<>();// HashSet does not allow duplicates
+        HashSet<Character> seen = new HashSet<>();// HashSet does not allow duplicates so we use it to remove duplicates
         StringBuilder sb = new StringBuilder();
 
         for (char ch : str.toCharArray()) {
