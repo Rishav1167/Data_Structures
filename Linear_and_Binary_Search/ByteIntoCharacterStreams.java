@@ -9,7 +9,7 @@ public class ByteIntoCharacterStreams {
     public static void main(String[] args) {
         String filePath = "./example.txt";
         try (BufferedReader reader = new BufferedReader(
-                new InputStreamReader(new FileInputStream(filePath), "UTF-8"))) {
+                new InputStreamReader(new FileInputStream(filePath), "UTF-8"))) { // we acn do manual encoding in FileInputStream
             String line;
             while ((line = reader.readLine()) != null) {
                 System.out.println(line);
